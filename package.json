@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-appium-jasmine",
+  "version": "1.0.0",
+  "description": "This repository has been created for the Webinar about \"Automating Mobile jasmine \".",
+  "scripts": {
+    "test.ios.sauce.real.jasmine.eu": "REGION=eu wdio configs/wdio.ios.sauce.real.jasmine.conf.js"
+  },
+  "keywords": ["Retail Activity Optimization"],
+  "author": "BaiBai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
+    "@wdio/appium-service": "^7.16.13",
+    "@wdio/cli": "^7.16.12",
+    "@wdio/jasmine-framework": "^7.16.11",
+    "@wdio/local-runner": "^7.16.12",
+    "@wdio/sauce-service": "^7.16.12",
+    "@wdio/spec-reporter": "^7.16.11",
+    "@wdio/sync": "^7.16.12"
+  }
+}
